@@ -1,13 +1,12 @@
 Given(/^I am on the homepage$/) do
 	@bonmarche_site = BonmarcheSite.new
-	@bonmarche_site.bonmarche_home_page.load_website
-	# @bonmarche_site.bonmarche_home_page.load
+	@bonmarche_site.bonmarche_home_page.load
 end
 
-When(/^I click on something$/) do
-
+When(/^I click on sign in/) do
+	@bonmarche_site.bonmarche_home_page.click_sign_in
 end
 
-Then(/^I am taken to that place$/) do
-
+Then(/^I am taken to the sign in page$/) do
+	expect(current_path).to include '/login/' 
 end
