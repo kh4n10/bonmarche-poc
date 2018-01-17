@@ -1,5 +1,11 @@
-require 'capybara'
+require 'capybara/dsl'
 require 'cucumber'
+# require 'site_prism'
+# require 'active_support'
+require 'selenium-webdriver'
+
+# ActiveSupport::Dependencies.autoload_paths << File.join(Dir.pwd, 'lib')
+# ActiveSupport::Dependencies.autoload_paths << File.join(Dir.pwd, 'lib/pages')
 
 
 Capybara.register_driver :chromedriver do |app|
