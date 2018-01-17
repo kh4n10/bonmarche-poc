@@ -8,4 +8,8 @@ class BonmarcheSite
 		Pages::BonmarcheLoginPage.new
 	end
 
+	def bonmarche_my_account_page
+		Pages::BonmarcheMyAccountPage.new
+	end
+
 end
