@@ -1,6 +1,6 @@
-Feature: Doing a transaction on the homepage
+Feature: I navigate to the sign in page
 
-	Scenario: I am loaded on to the page I am able to sign in to my account	
+	Scenario: I am on the homepage I am able to navigate to the sign in page	
 		Given I am on the homepage
 		When I click on sign in
 		Then I am taken to the sign in page
