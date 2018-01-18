@@ -14,5 +14,4 @@ class Pages::BonmarcheMyAccountPage < SitePrism::Page
 		going_to_a_section.click
 	end
 	
-
 end

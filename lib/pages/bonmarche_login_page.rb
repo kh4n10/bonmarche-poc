@@ -5,7 +5,6 @@ class Pages::BonmarcheLoginPage < SitePrism::Page
 
 # Below is proof of how the xpath of the username when signing in always changes, also the id always changes too.
 	# //*[@id="dwfrm_login_username_d0bjhjyacbxk"]
-	# //*[@id="dwfrm_login_username_d0bjhjyacbxk"]
 	# //*[@id="dwfrm_login_username_d0ektvtglujp"]
 
 
