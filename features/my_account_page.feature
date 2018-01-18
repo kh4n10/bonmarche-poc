@@ -1,7 +1,7 @@
 @login_to_account
-Feature: Click on a reyt good section meeert
+Feature: Click on a section once logged in
 
-	Scenario: I am loaded on to the sign in page and I am able to type in my credentials and sign in to my account.
+	Scenario: I have successfully logged into my account and I am able to navigate to a specific section of the site.
 		Given I am on my account page
 		When I hover on the womens sections
 		And Click on the dressing gowns option

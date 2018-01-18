@@ -13,5 +13,5 @@ And(/^Click on the dressing gowns option$/) do
 end
 
 Then(/^I am taken to the dressing gowns page$/) do
-
+	expect(current_path).to include '/womens/lingerie-and-nightwear/dressing-gowns/' 
 end
