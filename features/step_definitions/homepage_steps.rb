@@ -1,9 +1,6 @@
 Given(/^I am on the homepage$/) do
 	@bonmarche_site = BonmarcheSite.new
-<<<<<<< HEAD
-	# @bonmarche_site.bonmarche_home_page.load_website
-=======
->>>>>>> 568b0a2dbccd407c6f21729386e76640571779f8
+
 	@bonmarche_site.bonmarche_home_page.load
 end
 
