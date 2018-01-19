@@ -4,6 +4,11 @@ class DynamicsSite
 		Pages::DynamicsLoginPage.new
 	end
 
+	def dynamics_homepage
+		Pages::DynamicsHomepage.new
+	end
+
+
 	
 
 end
