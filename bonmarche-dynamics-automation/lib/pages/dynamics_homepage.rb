@@ -19,4 +19,7 @@ class Pages::DynamicsHomepage < SitePrism::Page
 			pipeline_chart
 		end
 
+		def find_sales_hub_text
+			find("span", :text => "Sales Hub")
+		end
 end
